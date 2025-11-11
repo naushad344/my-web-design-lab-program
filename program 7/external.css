@@ -1,0 +1,13 @@
+body {
+    background-color: #faf0e6;
+    font-family: Verdana, sans-serif;
+}
+h1 {
+    color: crimson;
+    text-align: center;
+}
+p {
+    color: navy;
+    font-size: 18px;
+    margin-left: 20px;
+}
