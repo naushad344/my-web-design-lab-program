@@ -1,0 +1,21 @@
+
+<html>
+<head>
+    <title>Frameset Example - Header, Navigation, Content</title>
+</head>
+
+<frameset rows="100px, *" border="2">
+    <frame src="header.html" name="headerFrame" scrolling="no" noresize>
+    <frameset cols="200px, *">
+        <frame src="navigation.html" name="navFrame">
+        <frame src="content.html" name="contentFrame">
+    </frameset>
+</frameset>
+
+<noframes>
+    <body>
+        <p>This page requires a browser that supports frames.</p>
+    </body>
+</noframes>
+
+</html>
