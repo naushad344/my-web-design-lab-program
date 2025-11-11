@@ -1,0 +1,63 @@
+<html>
+
+<head>
+    <title>Positioning Properties</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f7;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #1f618d;
+        }
+
+        .container {
+            position: relative;
+            height: 250px;
+            background-color: #ecf0f1;
+            border: 2px solid #7f8c8d;
+            border-radius: 10px;
+        }
+
+        .box {
+            width: 100px;
+            height: 100px;
+            color: white;
+            text-align: center;
+            line-height: 100px;
+            position: absolute;
+            font-weight: bold;
+        }
+
+        .box1 {
+            background-color: #e67e22;
+            top: 10px;
+            left: 10px;
+        }
+
+        .box2 {
+            background-color: #3498db;
+            top: 60px;
+            right: 10px;
+        }
+
+        .box3 {
+            background-color: #16a085;
+            bottom: 10px;
+            left: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Positioning Properties</h2>
+    <div class="container">
+        <div class="box box1">Box 1</div>
+        <div class="box box2">Box 2</div>
+        <div class="box box3">Box 3</div>
+    </div>
+</body>
+
+</html>
